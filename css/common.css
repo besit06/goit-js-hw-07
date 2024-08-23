@@ -80,3 +80,55 @@ body {
   border-radius: 12px;
 }
 
+.change-color {
+  color: white;
+  background-color: rgb(96, 147, 240);
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#controls input {
+  width: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#controls button {
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4c90af;
+  color: white;
+  font-size: 16px;
+}
+
+#controls button:hover {
+  background-color: #4c90af;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#boxes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
